@@ -147,11 +147,38 @@ label{
 }
 .evoluciones_grid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background-color: aliceblue;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px;
 }
 .evoluciones{
     margin-top: 1rem;
     font-family:  'Press Start 2P', cursive;
     font-size: 1.2rem;
+}
+.evolucion1{
+    background-image: url(imagenes/vamoacalmarno.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2{
+    background-image: url(evoluciones/wartortle.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3{
+    background-image: url(evoluciones/blastoise.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
 }
