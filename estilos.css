@@ -511,3 +511,204 @@ label{
     justify-content: center;
     align-items: center;
 }
+.link{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*CLEFAIRY*/
+
+.imgclefairy{
+    background-image: url(imagenes/Clefairy.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipoclefa button{
+    border-radius: .5rem;
+    background-color: rgb(227, 140, 198);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.debilidadclefa button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.gris{
+    background-color: rgb(144, 146, 145);
+    width: 12rem;
+}
+.violeta{
+    background-color: rgb(134, 43, 195);
+    width:16rem ;
+}
+.segundapantallitaclefa{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitaclefa p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+.segundapantallitaclefa i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.evolucion1clefa{
+    background-image: url(evoluciones/clefairy/cleffa.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2clefa{
+    background-image: url(imagenes/Clefairy.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3clefa{
+    background-image: url(evoluciones/clefairy/cleffable.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.squirtle{
+    border-radius: 2rem;
+    background-color: bisque;
+    border: 4px solid black;
+    margin: 2rem auto;
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.squirtle img{
+    height: 90%;
+    width: 18%;
+    margin: .2rem 1rem;
+}
+.squirtle p{
+    font-family:  'Press Start 2P', cursive;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/*WIGGYTUFF*/
+
+.imgwiggly{
+    background-image: url(imagenes/wigglytuff.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipowiggly button1{
+    border-radius: .5rem;
+    background-color: rgb(227, 140, 198);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.tipowiggly button2{
+    border-radius: .5rem;
+    background-color: rgb(173, 173, 173);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadwiggly button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.segundapantallitawiggly{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitawiggly p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+.segundapantallitawiggly i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evolucion1wiggly{
+    background-image: url(evoluciones/wigglytuff/igglybuff.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2wiggly{
+    background-image: url(evoluciones/wigglytuff/jigglypuff.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3wiggly{
+    background-image: url(imagenes/wigglytuff.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
