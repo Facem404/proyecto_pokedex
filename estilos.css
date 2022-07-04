@@ -568,7 +568,7 @@ label{
 .segundapantallitaclefa p{
     padding: .5rem;
     font-family:  'Press Start 2P', cursive;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .segundapantallitaclefa i{
     font-size: 2rem;
@@ -679,7 +679,7 @@ label{
 .segundapantallitawiggly p{
     padding: .5rem;
     font-family:  'Press Start 2P', cursive;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .segundapantallitawiggly i{
     font-size: 2rem;
@@ -707,6 +707,565 @@ label{
     background-image: url(imagenes/wigglytuff.png);
     background-size: 13rem;
     grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+/*BELLSPROUT*/
+.imgbells{
+    background-image: url(imagenes/bellsprout.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipobells button1{
+    border-radius: .5rem;
+    background-color: rgb(55, 178, 92);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.tipobells button2{
+    border-radius: .5rem;
+    background-color: rgb(115, 42, 163);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadbells button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.celeste{
+    background-color: rgb(32, 109, 197);
+    width: 12rem;
+}
+.azul{
+    background-color: rgb(37, 37, 185);
+    width: 10rem;
+}
+.rosa{
+    background-color: rgb(218, 128, 185);
+    width: 14rem;
+}
+.segundapantallitabells{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitabells p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1.3rem;
+}
+.segundapantallitabells i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evolucion1bells{
+    background-image: url(imagenes/bellsprout.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2bells{
+    background-image: url(evoluciones/bellsprout/weepinbell.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3bells{
+    background-image: url(evoluciones/bellsprout/victreebell.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+
+/*HYDREIGON*/
+
+.imghydre{
+    background-image: url(imagenes/hydreigon.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipohydre button1{
+    border-radius: .5rem;
+    background-color: rgb(66, 72, 68);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.tipohydre button2{
+    border-radius: .5rem;
+    background-color: rgb(149, 20, 50);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadhydre button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.naranja{
+    background-color: rgb(190, 92, 36);
+    width: 14rem;
+}
+.rojo{
+    background-color: rgb(128, 22, 22);
+}
+.segundapantallitahydre{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitahydre p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1.3rem;
+}
+.segundapantallitahydre i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evolucion1hydre{
+    background-image: url(evoluciones/hydreigon/deino.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2hydre{
+    background-image: url(evoluciones/hydreigon/Zweilous.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3hydre{
+    background-image: url(imagenes/hydreigon.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+
+/*MAGIKARP*/
+.imgmagi{
+    background-image: url(imagenes/magikarp.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipomagi button{
+    border-radius: .5rem;
+    background-color: rgb(23, 59, 175);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadmagi button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.segundapantallitamagi{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitamagi p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1.3rem;
+}
+.segundapantallitamagi i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evoluciones_gridmagi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+}
+.evolucion1magi{
+    background-image: url(imagenes/magikarp.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2magi{
+    background-image: url(evoluciones/magikarp/gyarados.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+/*MARILL*/
+.imgmarill{
+    background-image: url(imagenes/marill.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipomarill button1{
+    border-radius: .5rem;
+    background-color: rgb(44, 82, 205);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.tipomarill button2{
+    border-radius: .5rem;
+    background-color: rgb(220, 141, 213);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 1rem .5rem;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadmarill button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.segundapantallitamarill{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitamarill p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1.1rem;
+}
+.segundapantallitamarill i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evolucion1marill{
+    background-image: url(evoluciones/marill/azurill.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2marill{
+    background-image: url(imagenes/marill.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3marill{
+    background-image: url(evoluciones/marill/azumarill.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+/*MEW*/
+.imgmew{
+    background-image: url(imagenes/mew.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipomew button{
+    border-radius: .5rem;
+    background-color: rgb(210, 110, 172);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 13rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadmew button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.segundapantallitamew{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitamew p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+.segundapantallitamew i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evoluciones_gridmew{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px;
+}
+.evolucion1mew{
+    background-image: url(imagenes/mew.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+/*PIPLUP*/
+.imgpiplup{
+    background-image: url(imagenes/piplup.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipopiplup button{
+    border-radius: .5rem;
+    background-color: rgb(41, 85, 179);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 13rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadpiplup button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.segundapantallitapiplup{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitapiplup p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+.segundapantallitapiplup i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evolucion1piplup{
+    background-image: url(imagenes/piplup.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2piplup{
+    background-image: url(evoluciones/piplup/prinplup.png);
+    background-size: 13rem;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion3piplup{
+    background-image: url(evoluciones/piplup/empoleon.png);
+    background-size: 13rem;
+    grid-column: 3;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+/*PSYDUCK*/
+.imgpsy{
+    background-image: url(imagenes/psyduck.png);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    
+}
+.tipopsy button{
+    border-radius: .5rem;
+    background-color: rgb(41, 85, 179);
+    color: rgb(4, 4, 4);
+    font-size: 1.2rem;
+    width: 13rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+    border: 2px solid black;
+}
+.debilidadpsy button{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family:  'Press Start 2P', cursive;
+    padding: .5rem;
+}
+.segundapantallitapsy{
+    width: 85%;
+    height: 15%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.segundapantallitapsy p{
+    padding: .5rem;
+    font-family:  'Press Start 2P', cursive;
+    font-size: 1.1rem;
+}
+.segundapantallitapsy i{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.evoluciones_gridpsy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+}
+.evolucion1psy{
+    background-image: url(imagenes/psyduck.png);
+    background-size: 13rem;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-position: center center;
+    margin: 2rem;
+}
+.evolucion2psy{
+    background-image: url(evoluciones/psyduck/golduck.png);
+    background-size: 13rem;
+    grid-column: 2;
     background-repeat: no-repeat;
     height: 80%;
     background-position: center center;
