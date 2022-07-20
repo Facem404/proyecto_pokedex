@@ -1,3 +1,7 @@
+/*----------------------------------------------------------------------------------------*/
+/*SECCION DE IMPORTS, ANIMACIONES Y ESTILOS PRINCIPALES*/
+/*----------------------------------------------------------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
     margin: 0;
@@ -30,6 +34,7 @@ body{
     background-size: cover;
     height: 100%;
 }
+
 .container{
     margin: 0 auto;
     width: 85%;
@@ -38,14 +43,13 @@ body{
 #pokedex{
     display: flex;
     width: 90%;
-    height: 700px;
+    height: 750px;
     background-color: rgb(145, 11, 11);
     justify-content: space-between;
     margin: 9.5rem  auto;
     border-radius: 5rem;
     align-items: center;
 }
-
 
 #paginaderecha{
     width: 49%;
@@ -55,7 +59,6 @@ body{
     background-color: rgb(145, 11, 11);
 }
 
-
 #paginaizquierda{
     width: 49%;
     height: 105%;
@@ -63,7 +66,11 @@ body{
     border-radius: 3rem;
     background-color: rgb(145, 11, 11);
 }
-/* PAGINA IZQUIERDA */
+
+/*----------------------------------------------------------------------------------------*/
+/*SECCION DE LA PAGINA IZQUIERDA: */
+/*----------------------------------------------------------------------------------------*/
+
 .botoncitos{
     display: flex;
     align-items: center;
@@ -92,7 +99,7 @@ text-shadow: 3px 3px black;
     box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 .imgsquirtle{
-    background-image: url(imagenes/vamoacalmarno.png);
+    background-image: url(imagenes/squirtle.png);
     background-size: 13rem;
     background-repeat: no-repeat;
     height: 80%;
@@ -174,6 +181,13 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
+
+
+/*----------------------------------------------------------------------------------------*/
+/*EVOLUCIONES_GRID Y EVOLUCIONES DEFINEN LOS ESTILOS DEL TEXTO "EVOLUCIONES: "*/
+/*----------------------------------------------------------------------------------------*/
+
+
 .evoluciones_grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -184,34 +198,12 @@ label{
     font-family:  'Press Start 2P', cursive;
     font-size: 1.2rem;
 }
-.evolucion1{
-    background-image: url(imagenes/vamoacalmarno.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2{
-    background-image: url(evoluciones/squirtle/wartortle.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3{
-    background-image: url(evoluciones/squirtle/blastoise.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-/*PAGINA DERECHA*/
+
+
+/*----------------------------------------------------------------------------------------*/
+/*SECCION DE PAGINA DE LA DERECHA*/
+/*----------------------------------------------------------------------------------------*/
+
 #paginaderecha{
     display: flex;
     flex-direction: column;
@@ -621,33 +613,6 @@ label{
     font-weight: 600;
 }
 
-.evolucion1clefa{
-    background-image: url(evoluciones/clefairy/cleffa.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2clefa{
-    background-image: url(imagenes/Clefairy.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3clefa{
-    background-image: url(evoluciones/clefairy/cleffable.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
 .squirtle{
     border-radius: 2rem;
     background-color: bisque;
@@ -735,33 +700,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1wiggly{
-    background-image: url(evoluciones/wigglytuff/igglybuff.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2wiggly{
-    background-image: url(evoluciones/wigglytuff/jigglypuff.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3wiggly{
-    background-image: url(imagenes/wigglytuff.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*BELLSPROUT*/
 .imgbells{
     background-image: url(imagenes/bellsprout.png);
@@ -835,33 +774,6 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1bells{
-    background-image: url(imagenes/bellsprout.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2bells{
-    background-image: url(evoluciones/bellsprout/weepinbell.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3bells{
-    background-image: url(evoluciones/bellsprout/victreebell.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
 
 /*HYDREIGON*/
 
@@ -932,33 +844,6 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1hydre{
-    background-image: url(evoluciones/hydreigon/deino.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2hydre{
-    background-image: url(evoluciones/hydreigon/Zweilous.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3hydre{
-    background-image: url(imagenes/hydreigon.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
 
 /*MAGIKARP*/
 .imgmagi{
@@ -1010,29 +895,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evoluciones_gridmagi{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
-}
-.evolucion1magi{
-    background-image: url(imagenes/magikarp.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2magi{
-    background-image: url(evoluciones/magikarp/gyarados.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*MARILL*/
 .imgmarill{
     background-image: url(imagenes/marill.png);
@@ -1094,33 +957,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1marill{
-    background-image: url(evoluciones/marill/azurill.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2marill{
-    background-image: url(imagenes/marill.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3marill{
-    background-image: url(evoluciones/marill/azumarill.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*MEW*/
 .imgmew{
     background-image: url(imagenes/mew.png);
@@ -1171,20 +1008,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evoluciones_gridmew{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 150px;
-}
-.evolucion1mew{
-    background-image: url(imagenes/mew.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*PIPLUP*/
 .imgpiplup{
     background-image: url(imagenes/piplup.png);
@@ -1235,33 +1059,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1piplup{
-    background-image: url(imagenes/piplup.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2piplup{
-    background-image: url(evoluciones/piplup/prinplup.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3piplup{
-    background-image: url(evoluciones/piplup/empoleon.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*PSYDUCK*/
 .imgpsy{
     background-image: url(imagenes/psyduck.png);
@@ -1312,29 +1110,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evoluciones_gridpsy{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
-}
-.evolucion1psy{
-    background-image: url(imagenes/psyduck.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2psy{
-    background-image: url(evoluciones/psyduck/golduck.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*SALAMENCE*/
 
 .imgsala{
@@ -1401,33 +1177,6 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1sala{
-    background-image: url(evoluciones/salamence/bagon.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2sala{
-    background-image: url(evoluciones/salamence/shelgon.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3sala{
-    background-image: url(imagenes/salamence.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
 
 /*SNORLAX*/
 .imgsnorlax{
@@ -1479,29 +1228,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evoluciones_gridsnorlax{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
-}
-.evolucion1snorlax{
-    background-image: url(evoluciones/snorlax/munchlax.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2snorlax{
-    background-image: url(imagenes/snorlax.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*TEDDIURSA*/
 .imgteddi{
     background-image: url(imagenes/teddiursa.png);
@@ -1552,33 +1279,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evolucion1teddi{
-    background-image: url(imagenes/teddiursa.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2teddi{
-    background-image: url(evoluciones/teddiursa/Ursaring.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion3teddi{
-    background-image: url(evoluciones/teddiursa/Ursaluna.png);
-    background-size: 13rem;
-    grid-column: 3;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*ZOROARK*/
 .imgzoro{
     background-image: url(imagenes/zoroark.png);
@@ -1629,29 +1330,7 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evoluciones_gridzoro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
-}
-.evolucion1zoro{
-    background-image: url(evoluciones/zoroark/zorua.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
-.evolucion2zoro{
-    background-image: url(imagenes/zoroark.png);
-    background-size: 13rem;
-    grid-column: 2;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
-}
+
 /*DITTO*/
 .imgditto{
     background-image: url(imagenes/ditto.png);
@@ -1702,17 +1381,280 @@ label{
     font-size: 2rem;
     font-weight: 600;
 }
-.evoluciones_gridditto{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 150px;
+
+/*----------------------------------------------------------------------------------------*/
+/*SECCION DE EVOLUCIONES: CAJA CONTENEDORA Y ESTILOS DE LA IMAGEN INTERIOR CORRESPONDIENTE*/
+/*----------------------------------------------------------------------------------------*/
+
+.evolucion_squirtle{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
-.evolucion1ditto{
-    background-image: url(imagenes/ditto.png);
-    background-size: 13rem;
-    grid-column: 1;
-    background-repeat: no-repeat;
-    height: 80%;
-    background-position: center center;
-    margin: 2rem;
+
+.evolucion_squirtle img{
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+
+.evolucion_bellsprout{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_bellsprout img{
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_clefairy{
+    width: 100%;
+    height: 175px;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_clefairy img{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_hydreigon{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_hydreigon img{
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_magikarp{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_magikarp img{
+    width: 75%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_marill{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_marill img{
+    width: 80%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_piplup{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_piplup img{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_psyduck{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_psyduck img{
+    width: 70%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_salamence{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_salamence img{
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_snorlax{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_snorlax img{
+    width: 70%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_teddiursa{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_teddiursa img{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_wigglytuff{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_wigglytuff img{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_zoroark{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_zoroark img{
+    width: 60%;
+    display: flex;
+    align-self: center;
+}
+
+.evolucion_ditto{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_ditto img{
+    width: 35%;
+    display: flex;
+    align-self: center;
+}
+.evolucion_mew{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 4px solid black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.evolucion_mew img{
+    width: 27%;
+    display: flex;
+    align-self: center;
 }
