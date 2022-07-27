@@ -421,5 +421,7 @@ function MostrarPokemon(boton){
           <div class="evoluciones_pokemon">
             <img src=${pokemons[boton].Imagen_de_evolucion} alt="" id="Tope_imagen">
           </div>
-      </div>`
+      </div>`;
+
+  
 }
